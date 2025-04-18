@@ -1,0 +1,15 @@
+{
+    "Version":"2012-10-17",
+    "Statement":[
+        {
+            "Effect":"Allow",
+            "Action":[
+                "dynamodb:PutItem"
+
+            ],
+            "Resource":[
+                "arn:aws:dynamodb:ap-south-1:604456545213:table/Ryder"
+            ]
+        }
+    ]
+}
